@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BLACK-CAR — Politique de confidentialité</title>
+<style>
+  :root { --fond: #fafafa; --texte: #111; --attenue: #555; --trait: #e3e3e3; --accent: #8a6d1d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fond: #0e0e0e; --texte: #eee; --attenue: #aaa; --trait: #2a2a2a; --accent: #d2b25c; }
+  }
+  body { margin: 0; background: var(--fond); color: var(--texte);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--trait); }
+  .maj { color: var(--attenue); margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--trait); }
+  th { color: var(--attenue); font-weight: 600; }
+  @media (max-width: 520px) { table, tbody, tr, td, th { display: block; } thead { display: none; }
+    td { border: 0; padding: 2px 0; } tr { padding: 10px 0; border-bottom: 1px solid var(--trait); } td:first-child { font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Politique de confidentialité</h1>
+<p class="maj">Application BLACK-CAR — mise à jour le 25 octobre 2026</p>
+
+<p>BLACK-CAR met en relation des donneurs de courses (concierges, hôtels, chauffeurs) et
+des chauffeurs VTC. Cette page dit quelles données l'application traite, pourquoi, combien
+de temps, et comment exercer vos droits.</p>
+
+<h2>Qui est responsable</h2>
+<p>Hakim Sedoud, entrepreneur individuel<br>
+SIRET 838 564 722 00026<br>
+Contact pour toute question sur vos données : <a href="mailto:sedoud.hakim@gmail.com">sedoud.hakim@gmail.com</a></p>
+
+<h2>Les données traitées</h2>
+<table>
+<thead><tr><th>Données</th><th>Pourquoi</th><th>Durée</th></tr></thead>
+<tbody>
+<tr><td>Nom affiché, adresse e-mail, mot de passe (jamais stocké en clair)</td>
+    <td>Créer et sécuriser votre compte</td><td>Jusqu'à la suppression du compte, ou 3 ans sans connexion</td></tr>
+<tr><td>Numéro de téléphone</td>
+    <td>Permettre au donneur et au chauffeur d'une course de se joindre</td><td>Jusqu'à la suppression du compte, ou 3 ans sans connexion</td></tr>
+<tr><td>Vérification du numéro par Telegram : le numéro et votre identifiant Telegram</td>
+    <td>Prouver, à l'inscription, que le numéro est bien le vôtre</td><td>7 jours</td></tr>
+<tr><td>Chauffeurs : véhicule (marque, couleur, catégorie, immatriculation, places), carte VTC et photo de vérification, départements déclarés. La photo est comparée à l'œil par l'exploitant ; aucune reconnaissance faciale n'est faite</td>
+    <td>Vérifier que vous êtes chauffeur VTC et vous proposer les courses qui vous correspondent</td>
+    <td>Le véhicule et les départements : jusqu'à la suppression du compte. Les photos de la carte VTC et de vérification : <strong>effacées dès que le dossier est contrôlé</strong> ; ne reste que la trace du contrôle (pièce, date d'expiration, décision, date)</td></tr>
+<tr><td>Chauffeurs : position</td>
+    <td>Vous proposer les courses immédiates proches de vous</td>
+    <td>Seule la dernière position est gardée, remplacée à chaque relevé ; aucun historique de trajets</td></tr>
+<tr><td>Courses : adresses, prix, message libre, nom et téléphone du donneur</td>
+    <td>Réaliser la course</td>
+    <td>Effacées définitivement dès que le donneur valide la course</td></tr>
+<tr><td>Liste des chauffeurs écartés par un donneur : un libellé anonyme et une date</td>
+    <td>Ne plus proposer ses courses à un chauffeur qu'il a écarté</td>
+    <td>Jusqu'à la suppression du compte du donneur</td></tr>
+<tr><td>Journaux techniques : adresse IP, date et type de connexion</td>
+    <td>Sécurité du service, détection des abus</td>
+    <td>Quelques jours, chez l'hébergeur</td></tr>
+<tr><td>Jeton de notification de l'appareil</td>
+    <td>Vous prévenir d'une course ou d'un changement de votre dossier</td>
+    <td>Jusqu'à la déconnexion ou la suppression du compte</td></tr>
+</tbody>
+</table>
+
+<h2>Qui voit quoi</h2>
+<ul>
+<li>Votre numéro de téléphone n'est communiqué qu'à l'autre partie d'une course : le donneur au chauffeur choisi, et inversement.</li>
+<li>Les justificatifs des chauffeurs ne sont vus que par l'exploitant de BLACK-CAR, le temps de valider le dossier.</li>
+<li>Un chauffeur qui n'a pas été choisi pour une course n'en voit ni l'adresse exacte, ni le prix total, ni le message.</li>
+</ul>
+
+<h2>La position des chauffeurs</h2>
+<p>La position n'est demandée qu'aux chauffeurs, à l'activation du mode Chauffeur et au
+passage « En service ». En service, elle est relevée y compris application fermée ou écran
+éteint : c'est ce qui permet de recevoir une course immédiate. Hors service, elle n'est
+plus relevée. Elle n'est jamais montrée telle quelle aux donneurs, et un compte qui ne fait
+que donner des courses n'est jamais localisé.</p>
+
+<h2>Ce que BLACK-CAR ne fait pas</h2>
+<ul>
+<li>Aucune publicité, aucun traçage publicitaire, aucune revente de données.</li>
+<li>Aucun paiement dans l'application : le chauffeur encaisse son client lui-même.</li>
+</ul>
+
+<h2>Sécurité</h2>
+<p>Toutes les communications sont chiffrées. Sur le téléphone, la session est gardée dans
+le coffre sécurisé du système. Les justificatifs sont rangés dans un espace privé, lisible
+seulement par l'exploitant, et aucune table de la base n'est accessible directement : chaque
+lecture passe par une fonction qui ne rend que ce que vous avez le droit de voir.</p>
+
+<h2>Base légale</h2>
+<p>L'exécution du service que vous demandez en créant un compte (article 6.1.b du RGPD). La
+position en arrière-plan repose en plus sur votre accord, donné dans les réglages de votre
+téléphone et retirable à tout moment.</p>
+
+<h2>Prestataires</h2>
+<ul>
+<li><strong>Supabase</strong> — hébergement de la base, des fichiers et des comptes, à Paris (Union européenne).</li>
+<li><strong>Expo</strong> — acheminement des notifications ; reçoit le jeton de l'appareil et le texte de la notification (États-Unis, clauses contractuelles types).</li>
+<li><strong>Google (Gmail)</strong> — envoi des e-mails de confirmation et de réinitialisation du mot de passe.</li>
+<li><strong>Telegram</strong> — vérification du numéro à l'inscription, si vous l'utilisez.</li>
+<li><strong>Apple et Google</strong> — remise des notifications sur votre téléphone.</li>
+</ul>
+
+<h2>Supprimer votre compte</h2>
+<p>Depuis l'application : Réglages → Supprimer mon compte. Votre profil, votre fiche
+chauffeur, vos justificatifs, votre position et vos appareils sont effacés définitivement.
+La suppression est refusée tant qu'une course est en cours avec vous, le temps de la terminer.</p>
+<p>Sans l'application : écrivez à <a href="mailto:sedoud.hakim@gmail.com">sedoud.hakim@gmail.com</a>
+depuis l'adresse de votre compte, en demandant sa suppression. Elle est faite sous 30 jours.</p>
+<p>Un compte resté 3 ans sans connexion est supprimé de la même façon.</p>
+
+<h2>Vos droits</h2>
+<p>Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, leur
+portabilité, ou vous opposer à un traitement, en écrivant à
+<a href="mailto:sedoud.hakim@gmail.com">sedoud.hakim@gmail.com</a>. Réponse sous un mois. Vous
+pouvez aussi saisir la CNIL : <a href="https://www.cnil.fr/fr/plaintes">cnil.fr/fr/plaintes</a>.</p>
+
+<h2>Mineurs</h2>
+<p>BLACK-CAR est réservé aux professionnels majeurs.</p>
+
+<h2>Changements</h2>
+<p>Toute modification de cette politique est publiée sur cette page, avec sa date.</p>
+</main>
+</body>
+</html>
